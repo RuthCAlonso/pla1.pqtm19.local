@@ -16,11 +16,24 @@ Este archivo contiene la explicación para configurar un entorno de desarrollo p
 <p> Al abrir hay que seleccionar el idioma y aparece el panel de control. Hay que cerrarlo desde quit y volver a abrirlo como administrador, seleccionar Apache y MySQL y clic en start para encender Apache.Tanto MySQL como Apache aparecen en verde.  
 <p> Para comprobar que la instalación se ha hecho correctamente, entrar en el navegador como http://localhost. Aparece una página de XAMPP. Para que se encienda automáticamente, ir al panel de configuración y seleccionar Start control.  
 	
-	![xampp_01](C:/PQTM19/Projectes/pla1.pqtm19.local/media/Install_Xampp/1_Install_Xampp.PNG)
-	![xampp_01](\C:\PQTM19\Projectes\pla1.pqtm19.local\media\Install_Xampp\1_Install_Xampp.PNG)
-	![xampp_01](C:/PQTM19/Projectes/pla1.pqtm19.local/media/media/Install_Xampp/1_Install_Xampp.PNG)
-	![xampp_01](/C:/PQTM19/Projectes/pla1.pqtm19.local/media/media/Install_Xampp/1_Install_Xampp.PNG)
 	
+
+![xampp_01](media/Install_Xampp/1_Install_Xampp.PNG)
+![xampp_02](media/Install_Xampp/2_Install_Xampp.PNG)
+![xampp_03](media/Install_Xampp/3_Install_Xampp.PNG)
+![xampp_04](media/Install_Xampp/4_Install_Xampp.PNG)
+![xampp_05](media/Install_Xampp/5_Install_Xampp.PNG)
+![xampp_06](media/Install_Xampp/6_Install_Xampp.PNG)
+![xampp_07](media/Install_Xampp/7_Install_Xampp.PNG)
+![xampp_08](media/Install_Xampp/8_Install_Xampp.PNG)
+![xampp_09](media/Install_Xampp/9_Install_Xampp.PNG)
+![xampp_10](media/Install_Xampp/10_Install_Xampp.PNG)
+![xampp_11](media/Install_Xampp/11_Install_Xampp.PNG)
+![xampp_12](media/Install_Xampp/12_Install_Xampp.PNG)
+![xampp_13](media/Install_Xampp/13_Install_Xampp.PNG)
+![xampp_14](media/Install_Xampp/14_Install_Xampp.PNG)
+
+
 ## 2. Configuración de VirtualHost de Apache
  <p> Después de instalar Notepad++, editamos el archivo  http.vhosts.conf siguiendo la ruta:
 
@@ -55,7 +68,10 @@ Y creamos el directorio: C:\PQTM19\Projectes\pla1.pqtm19.local
 
 Apagamos y encendemos Apache.
 
-
+![VirtualHost_01](media/imagenes/01.PNG)
+![Hosts_01](media/imagenes/02.PNG)
+![Xampp_15](media/imagenes/15.PNG)
+![Xampp_16](media/imagenes/16.PNG)
 
 ## 3. Instalación de Eclipse
 <p>El editor de texto ECLIPSE se descarga desde la página de Eclipse Foundation: https://www.eclipse.org/downloads/
@@ -63,11 +79,53 @@ Apagamos y encendemos Apache.
 <p>Instalamos Eclipse IDE for PHP Developers.  Click derecho>ejecutar como administrador>seleccionar la carpeta donde se instalará: C:\PQTM19\eclipse\. Dejamos seleccionadas las opciones que vienen por defecto create start menu entry y create desktop shortcut. 
   
   
+![Eclipse_01](media/Install_Eclipse/1_Install_Eclipse.PNG)  
+![Eclipse_02](media/Install_Eclipse/2_Install_Eclipse.PNG)  
+![Eclipse_03](media/Install_Eclipse/3_Install_Eclipse.PNG)  
+![Eclipse_04](media/Install_Eclipse/4_Install_Eclipse.PNG)  
+![Eclipse_05](media/Install_Eclipse/5_Install_Eclipse.PNG)  
+![Eclipse_06](media/Install_Eclipse/6_Install_Eclipse.PNG)  
+![Eclipse_07](media/Install_Eclipse/7_Install_Eclipse.PNG)  
+![Eclipse_08](media/Install_Eclipse/8_Install_Eclipse.PNG)  
+![Eclipse_09](media/Install_Eclipse/9_Install_Eclipse.PNG)  
+![Eclipse_10](media/Install_Eclipse/10_Install_Eclipse.PNG)  
+![Eclipse_11](media/Install_Eclipse/11_Install_Eclipse.PNG)  
+![Eclipse_12](media/Install_Eclipse/12_Install_Eclipse.PNG)  
+![Eclipse_13](media/Install_Eclipse/13_Install_Eclipse.PNG)  
+![Eclipse_14](media/Install_Eclipse/14_Install_Eclipse.PNG)  
+![Eclipse_15](media/Install_Eclipse/15_Install_Eclipse.PNG)  
+![Eclipse_16](media/Install_Eclipse/16_Install_Eclipse.PNG)  
+![Eclipse_17](media/Install_Eclipse/17_Install_Eclipse.PNG)  
+![Eclipse_18](media/Install_Eclipse/18_Install_Eclipse.PNG)  
+![Eclipse_19](media/Install_Eclipse/19_Install_Eclipse.PNG)  
+ 
+
+
+ 
+  
 ## 4. Definición de Workspace
 El workspace es la carpeta donde se guardarán todos los archivos que se generen en un proyecto de Eclipse. En cuanto se abre el programa, aparece una ventana donde nos pide seleccionar este directorio. El nuestro será C:\PQTM19\Projectes 
 
+![Eclipse_20](media/Install_Eclipse/20_Install_Eclipse.PNG) 
+
 ## 5. Definición de proyecto
 <p>file > new > PHP project > create a PHP project > project name: pla1.pqtm19.local > next>next>finish
+  
+  
+![PHP_project_01](media/imagenes/03.PNG)  
+![PHP_project_02](media/imagenes/04.PNG) 
+![PHP_project_03](media/imagenes/05.PNG) 
+![PHP_project_04](media/imagenes/06.PNG) 
+![PHP_project_05](media/imagenes/07.PNG) 
+![PHP_project_06](media/imagenes/08.PNG) 
+![PHP_project_07](media/imagenes/09.PNG) 
+![PHP_project_08](media/imagenes/10.PNG) 
+![PHP_project_09](media/imagenes/11.PNG) 
+![PHP_project_10](media/imagenes/12.PNG) 
+![PHP_project_11](media/imagenes/13.PNG) 
+![PHP_project_12](media/imagenes/14.PNG) 
+
+  
   
 ## 6. Definición de repositorio local
 <p>  Para crear un directorio en el proyecto, menú contextual sobre la carpeta del proyecto y creamos un archivo index.html y cuatro carpetas: css, img, js, media
@@ -88,7 +146,19 @@ El workspace es la carpeta donde se guardarán todos los archivos que se generen
 <p> En perspectiva PHP, clic derecho sobre pla1.pqtm19.local [pla1.pqtm19.localmaster]>team>commit.
 <p> Se abre la ventana Git Staging en la parte inferior de la pantalla. En la casilla Unstaged changes se muestran los archivos del proyecto. Hay que ignorar todos los archivos que empiecen . o contienen .settings y pasar el resto a la casilla staged changes con el icono de suma. Para ignorar archivos, seleccionarlos, clic derecho, ignore>ignore.
 
-<p>Después de crear un usuario en github (https://github.com/github), clic en New: repository name: “pla1.pqtm19.local”, private, initialize this repository with a README, create repository. En este caso no hace falta crear un archivo README.md puesto que estamos creando el repository local que después subiremos a GitHub y el readme de este machacaría el creado en GitHub. Por tanto, el readme lo hacemos en Eclipse posteriormente. 
+<p>Después de crear un usuario en github (https://github.com/github), clic en New: repository name: “pla1.pqtm19.local”, private, initialize this repository with a README, create repository. En este caso no hace falta crear un archivo README.md puesto que estamos creando el repository local que después subiremos a GitHub y el readme de este machacaría el creado en GitHub. Por tanto, el readme lo hacemos posteriormente una vez hayamos subido el repositorio desde Eclipse. 
+
+![github_01](media/imagenes/17.PNG)
+![github_02](media/imagenes/18.PNG)
+![github_03](media/imagenes/19.PNG)
+![github_04](media/imagenes/20.PNG)
+
+
+
+
+
+
+
 
 
 ## 8. Exportación de la rama "máster" local sobre el repositorio GitHub
